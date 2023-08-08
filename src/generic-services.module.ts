@@ -10,12 +10,13 @@ export class GenericServicesModule {
 			imports: [
 				CacheModule.register({
 					isGlobal: true,
+					...oConfig.cacheConfig
 				})
 			],
 			providers: [
 				{
 					provide: MODULE_CONFIG,
-					useValue:  oConfig
+					useValue: oConfig
 				}
 			]
 		}
