@@ -1,0 +1,17 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
+.vs/
+
+### Node JS ###
+node_modules/
+dist/
+package-lock.json
+
+### ENV VARS ###
+.env
